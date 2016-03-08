@@ -24,8 +24,8 @@ buildMainPage = function () {
   var aboutItem = new Element('li', '', null, uList);
   var about = new Button('Who We Are', aboutClick,'#333366', 'frontButtons', aboutItem);
   var projectsItem = new Element('li', null, null, uList);
-  var projects = new Button('What We\'re Doing', null,'#333366', 'frontButtons', projectsItem);
+  var projects = new Button('What We\'re Doing', projectsClick,'#333366', 'frontButtons', projectsItem);
   var helpItem = new Element('li', null, null, uList);
-  var help = new Button('How You Can Help', null,'#333366', 'frontButtons', helpItem);
+  var help = new Button('How You Can Help', helpClick,'#333366', 'frontButtons', helpItem);
   fadeIn(textArea.getElement(), 2000);
 }
