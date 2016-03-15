@@ -33,6 +33,13 @@ var header = function(parent) {
   var help = new Button('How You Can Help', helpClick,'#333366', null, helpItem, 'headerButtons');
 }
 
+var underConstruction = function(parent)
+{
+  var constDiv = new Element('div', '', '', parent);
+  var hh = new Element('h2', 'This Site is currently under Construction and will be available soon.','', constDiv);
+  hh.getElement();
+}
+
 mainClick = function()
 {
   mainPage.show();
