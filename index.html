@@ -1,33 +1,17 @@
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="fade.js"> </script>
+    <link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="bundle.js"> </script>
 
 </head>
-<body onload="FrontPageLoad();" >
-<div id="Content">
-	<div id="LogoArea">
-		<img id="logo" src="images/logo.png" />
-	</div>
-<div id="TextArea">
-	<div id="iTextArea">
-		<ul>
-			<li>
-				<a href=#" title="Read about our organization" >About</a><span class="LinkSeparator"> | </span>
-			</li>
-			<li>
-				<a href="#" title="What we do">Current Projects</a><span class="LinkSeparator"> | </span>
-			</li>
-			<li>
-				<a href="#" title="Reach out to us">Contact</a>
-			</li>
-		</ul>
-	</div>
-</div>
-</div>
-<div id="footer" class="copyright">
-	<p class="copyright">
-	</p>
-</div>
+
+<body ng-app="app">
+    <div ng-controller="appMain">
+        <div class="mysterious-box">It Begins...</div>
+    </div>
 
 </body>
+
+</html>

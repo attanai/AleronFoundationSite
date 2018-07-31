@@ -1,0 +1,12 @@
+{
+  "name": "AleronFoundationSite",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/theNetruist/AleronFoundationSite.git",
+  "author": "thenetruist <andrew.aleron@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
