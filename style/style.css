@@ -1,171 +1,18 @@
-html{
-overflow: hidden;
-height: 100%;
-width: 100%;
+html {
+    background-color: black;
 }
 
-body{
-height: 100%;
-width: 100%;
-background-color: #000000;
+body {
+    background: black url("../images/Attanai.bmp") no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
-div, p, blockquote, ol, ul, dl, li, dt, dd, td {
-font-family: Verdana, Arial, sans-serif;
-}
-
-b, strong {
-font-weight: 900;
-}
-
-a {
-color: #FFFFFF;
-text-decoration: none;
-}
-
-a:hover {
-color: #FFFFFF;
-text-decoration: none;
-background-color:#001144;
-}
-#logo{
-  width: 60%;
-}
-
-#TextArea {
-  font-size: 32px;
-  font-weight: 400;
-  color: #FFFFFF;
-  background:rgba(255,255,255,0.0);
-  text-align: center;
-  position:absolute;
-  top: 70%;
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;
-}
-
-#TextArea li{
-display: inline-block;
-margin: 0 0 0 30px;
-}
-
-#header {
-  position:relative;
-  font-size: 32px;
-  font-weight: 400;
-  color: #FFFFFF;
-  background:rgba(255,255,255,0.0);
-  top: -10;
-  left:-10;
-  right:0;
-  height:auto;
-  width: 110%
-  margin:auto;
-}
-
-#header ul {
-  position:absolute;
-  list-style-type: none;
-  bottom: 0;
-  right:10%;
-}
-
-#header li{
-  display: inline-block;
-  margin: 0 0 0 30px;
-}
-
-#header img {
-  height: 200px;
-  width: auto;
-}
-
-@media (max-height:950px) {
-  #TextArea {
-    top: 75%;
-  }
-}
-@media (max-height:750px) {
-  #TextArea {
-    top: 80%;
-  }
-}
-@media (max-height:600px) {
-  #TextArea {
-    top: 90%;
-  }
-}
-
-@media (max-width: 1700px) {
-  #header ul {
-    right:5%;
-  }
-  #header li{
-    margin: 0 0 0 20px;
-  }
-}
-
-@media (max-width: 1450px) {
-  #header {
-    font-size: 24px;
-  }
-  #header img {
-    height: auto;
-    width: 20%;
-  }
-  #header ul {
-    right:5%;
-  }
-}
-@media (max-width: 1000px) {
-  #TextArea ul{
-    text-align: center;
-    width: 60%;
-    padding: 0px;
-  }
-  #TextArea li {
-    width: 100%;
-    display: block;
-    margin: 0 0 10px 0;
-  }
-  #header {
-    font-size: 16px;
-  }
-}
-@media (max-width: 650px) {
-  #header {
-    font-size: 12px;
-  }
-}
-
-@media (max-width:550px) {
-  #header {
-    text-align:center;
-    width: 102%;
-    left:-1%
-    font-size: 12px;
-    height: 70px
-  }
-  #header img {
-    left:0;
-    right:0;
-    top:0;
-    height: 40px;
-    margin: auto;
-  }
-  #header ul {
-    top: 35px;
-    width: 100%;
-    right: 0;
-    text-align:center;
-  }
-  #header li{
-    margin: 0 0 0 10px;
-    text-align:center;
-  }
-  #TextArea li {
-    font-size: 14px;
-  }
+.mysterious-box{
+    font-family: 'Milonga';
+    font-size: 60px;
+    position: absolute;
+    left: 70%;
+    bottom: 20%;
+    color: white;
 }
